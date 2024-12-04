@@ -68,4 +68,42 @@ Backend
 
 *Nodejs -> Javascript*
 
+---
+<!-- _class: hidden-list -->
+# **Javascript** vs **Java**
 
+* **Java**
+* Statisch typisierte Sprache
+* Objektorientiert (OO)
+* Strengere Syntax und erfordert Definition von namentypen.
+
+* **Javascript**
+* Dynamisch typisierte Sprache
+* lockerere Syntax und erlaubt andern von namentypen
+---
+<!-- _class: hidden-list -->
+# Warum ist **Javascript** ungeeignet?
+Java
+```
+String name = "Bob";
+name = 5;
+System.out.println(name);
+```
+* :angry: :-1:
+* > Compiler: Required type:
+String
+Provided:
+int
+---
+<!-- _class: hidden-list -->
+# Warum ist **Javascript** ungeeignet?
+Javascript
+```
+let name = "Bob";
+name = "Hallo Welt"
+name = [5, 12, 3]
+name = true
+console.log(name); 
+```
+* :smile: :+1:
+* > console: `true`
