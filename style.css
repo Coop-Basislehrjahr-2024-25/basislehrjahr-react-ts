@@ -1,0 +1,8 @@
+/* @theme customized */
+
+@import 'gaia';
+
+img {
+    height: 150px;
+    width: auto;
+}
