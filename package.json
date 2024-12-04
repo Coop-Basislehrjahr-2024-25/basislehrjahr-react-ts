@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "main": "readme.md",
   "scripts": {
-    "start": "fusuma start -b",
-    "start:prod": "fusuma start-prod",
-    "build": "fusuma build",
-    "deploy": "npm run build && fusuma deploy",
-    "pdf": "npm run build && fusuma pdf"
+    "start": "marp -s ."
   },
   "author": "Gabriel Nadolny",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "fusuma": "^2.8.4"
+    "@marp-team/marp-cli": "^4.0.3"
   }
 }
