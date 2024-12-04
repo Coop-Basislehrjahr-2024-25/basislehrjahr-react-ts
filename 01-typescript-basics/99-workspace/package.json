@@ -1,0 +1,12 @@
+{
+  "name": "99-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:js": "node --inspect --watch ./main.js",
+    "dev:ts": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
