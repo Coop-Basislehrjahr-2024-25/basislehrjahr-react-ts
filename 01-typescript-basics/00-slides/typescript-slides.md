@@ -140,3 +140,15 @@ console.log(num * 2);
 * > console: `NaN` --> Not an Number 
 
 * `console.log("105" * 2)`
+---
+# Was ist Typescript
+* Kann alles tun, was JavaScript kann, aber mehr (Superset)
+* "Upgrade" für JavaScript mit Typüberprüfung
+* Typescript Code wird zu JavaScript-Code transpiliert
+---
+# Aufgaben
+
+Allgemeine Syntax Informationen in `01-typescript-basics/01-work/01-basics.md`
+
+Aufgaben in `01-typescript-basics/01-work`
+Challenges in `01-typescript-basics/02-challenges`
