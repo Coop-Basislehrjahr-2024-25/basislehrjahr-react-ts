@@ -17,11 +17,11 @@ Jeder Browser unterstützt Native Javascript!
 
 <!-- fragments-start -->
 
-<img class="smaller-img" src="./assets/counter.gif"></img>
+<img src="./assets/counter.gif"></img>
 
 <br></br>
 
-<img class="smaller-img" src="./assets/dino-game.gif"></img>
+<img src="./assets/dino-game.gif"></img>
 
 <!-- fragments-end -->
 
