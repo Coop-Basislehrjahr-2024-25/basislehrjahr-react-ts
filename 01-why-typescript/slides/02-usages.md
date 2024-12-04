@@ -1,24 +1,27 @@
 # Was sollte Javascript machen?
 
-
-<!-- fragments-start -->
-
 Webseiten interaktive gestaltbar machen
+
+<br></br>
+
 * Manipulation von HTML- und CSS-Elementen
 * Kommunikation mit dem Servern
-Jeder Browser unterstützt Native Javascript!
 
-<!-- fragments-end -->
+<br></br>
+
+Jeder Browser unterstützt Native Javascript!
 
 ---
 
-
-## JS bringt Unendlich Möglichkeiten
+# Javascript bringt unendlich Möglichkeiten
 
 <!-- fragments-start -->
 
-<img class="smaller-img" src="./assets/counter.gif"></img>gi
+<img class="smaller-img" src="./assets/counter.gif"></img>
+
+<br></br>
+
+<img class="smaller-img" src="./assets/dino-game.gif"></img>
 
 <!-- fragments-end -->
-
 
