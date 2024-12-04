@@ -107,3 +107,36 @@ console.log(name);
 ```
 * :smile: :+1:
 * > console: `true`
+---
+<!-- _class: hidden-list -->
+# Odd Things with **Javascript**
+
+`let value = 0;`
+
+* `console.log(value == 0)`
+* > console: `true`
+* `console.log(value == "0")`
+* > console: `true`
+  `console.log(value == false)`
+* > console: `true`
+---
+<!-- _class: hidden-list -->
+# Odd Things with **Javascript**
+```
+let num = 10;
+num = num + "5";
+console.log(num); 
+```
+* > console: `"105"`
+--- 
+<!-- _class: hidden-list -->
+# Odd Things with **Javascript**
+
+```
+let num = 10;
+num = num + "5";
+console.log(num * 2); 
+```
+* > console: `NaN` --> Not an Number 
+
+* `console.log("105" * 2)`
