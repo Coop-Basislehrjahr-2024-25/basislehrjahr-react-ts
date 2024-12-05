@@ -2,11 +2,16 @@
   "name": "99-workspace",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev:js": "node --inspect --watch ./main.js",
-    "dev:ts": "echo \"Error: no test specified\" && exit 1"
+    "dev:js": "nodemon ./main.js",
+    "dev:ts": "nodemon --exec tsx ./main.ts"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.2"
+  }
 }
