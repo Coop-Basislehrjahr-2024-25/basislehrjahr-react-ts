@@ -37,6 +37,18 @@ Die `filter`-Funktion erstellt ein neues Array, das nur die Elemente enthält, d
 ```typescript
 const geradeZahlen = zahlen.filter(num => num % 2 === 0);
 ```
+### Funktionen und Typen
+
+Auch Funktionen können typisiert werden, sowohl in Bezug auf ihre Parameter als auch auf ihre Rückgabewerte.
+
+```typescript
+type MathematischeOperation = (a: number, b: number) => number;
+
+const addieren: MathematischeOperation = (a, b) => a + b;
+const subtrahieren: MathematischeOperation = (a, b) => a - b;
+```
+
+> 💡 Starke Typisierung hilft nicht nur bei der Fehlererkennung, sondern auch bei der Code-Dokumentation und der Teamzusammenarbeit.
 
 ## Ressourcen
 - [TypeScript-Dokumentation](https://www.typescriptlang.org/docs/)

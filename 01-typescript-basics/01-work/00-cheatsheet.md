@@ -107,6 +107,46 @@ function helloWorld() {
 ```
 > 💡 Hinweis: Kommentare können verwendet werden um zusätzliche Informationen zur einer Code stelle zu liefern oder um diese Temporär nicht auszuführen. 
 
+## Einführung in TypeScript-Typen
+
+In TypeScript dreht sich alles um die Typisierung von Variablen, Funktionen und anderen Code-Elementen. Durch die richtige Verwendung von Typen können wir Fehler zur Kompilierzeit erkennen und die Code-Qualität verbessern.
+
+### Grundlegende vordefinierte Typen
+
+TypeScript bietet bereits vordefinierte Typen wie `number`, `string`, `boolean`, usw. Diese helfen dabei, den Typ der Daten zu bestimmen, die eine Variable speichern kann.
+
+```typescript
+let alter: number = 25;
+let name: string = "Alice";
+let istAktiv: boolean = true;
+```
+
+### Erstellen von benutzerdefinierten Typen
+
+Manchmal möchten wir spezifischere Typen erstellen, die aus verschiedenen vordefinierten Typen zusammengesetzt sind. Dies erreichen wir durch die Verwendung von `interface` und `type`.
+
+```typescript
+interface Person {
+    name: string;
+    alter: number;
+}
+
+type Punkt = {
+    x: number;
+    y: number;
+};
+```
+
+### Verwendung von Literalen
+
+Literale ermöglichen es uns, die Werte, die eine Variable annehmen kann, genau zu spezifizieren. Sie sind besonders nützlich, wenn wir eine begrenzte Anzahl möglicher Werte haben möchten.
+
+```typescript
+type Geschlecht = "männlich" | "weiblich" | "anderes";
+
+let benutzerGeschlecht: Geschlecht = "weiblich";
+```
+
 ## Ressourcen
 
 - [MDN JavaScript Guide](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide)
