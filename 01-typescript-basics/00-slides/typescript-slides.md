@@ -151,4 +151,3 @@ console.log(num * 2);
 Allgemeine Syntax Informationen in `01-typescript-basics/01-work/01-basics.md`
 
 Aufgaben in `01-typescript-basics/01-work`
-Challenges in `01-typescript-basics/02-challenges`

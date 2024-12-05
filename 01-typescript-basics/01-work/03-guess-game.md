@@ -2,7 +2,7 @@
 
 Erstelle eine Applikation welche eine zufällige Zahl generiert. Der Benutzer wird gefragt diese Zahl zu erraten. Die Applikation läuft so lange weiter bis die Zahl erfolgreich erraten wurde.  
 
-Informiere dich im Internet, schau in die [Aufgaben Hilfe](#aufgaben-hilfe) oder in [01-basics](01-basics.md) wie man mit Funktionen und Schleifen umgeht. Möglicherweise hilft dir die [Aufgaben Hilfe aus in 02-greeter](02-greeter.md) weiter.
+Informiere dich im Internet, schau in die [Aufgaben Hilfe](#aufgaben-hilfe) oder in [00-cheatsheet](00-cheatsheet) wie man mit Funktionen und Schleifen umgeht. Möglicherweise hilft dir die [Aufgaben Hilfe aus in 01-greeter](01-greeter) weiter.
 ## Aufgaben Hilfe
 
 <details>
