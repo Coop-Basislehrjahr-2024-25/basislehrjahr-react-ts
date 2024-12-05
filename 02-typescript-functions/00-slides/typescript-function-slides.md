@@ -52,6 +52,18 @@ replace()
 replaceAll()
 split()
   ```
+---
+# String Funktionen destruktiv
+
+ ```
+pop()
+push()
+shift()
+unshift()
+delete()
+splice()
+  ```
+* verändern den original String
 
 ---
 
@@ -76,6 +88,21 @@ slice()
   ```
 
 ---
+
+# Array Funktionen destruktiv
+
+ ```
+pop()
+push()
+shift()
+unshift()
+delete()
+splice()
+  ```
+* verändern das original Array
+
+---
+
 
 # Callback Funktionen
 
