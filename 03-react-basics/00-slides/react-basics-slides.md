@@ -84,9 +84,9 @@ function SuperCoolButton() {
 
 ```tsx
 class SuperCoolButton extends React.Component {
-  render() {
-    return <button class="super-coole-class">Super cooler Knopf</button>;
-  }
+    render() {
+        return <button class="super-coole-class">Super cooler Knopf</button>;
+    }
 }
 ```
 
@@ -105,10 +105,24 @@ class SuperCoolButton extends React.Component {
     * Bspw. Laden von `<SuperCoolButton>`
 
 ---
+
 # State
 
+`useState` um einfaches state management von React zu nutzen.
 
-````
+* `useState` gibt zwei Funktionen zurück. Value setter und setter
+
+---
+
+# State
+
+`useState` um einfaches state management von React zu nutzen.
+
+- `useState` gibt zwei Funktionen zurück. Value setter und setter
+
+```tsx
+const [value, setValue] = useState(initValue)
+```
 
 ---
 

@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 export function Counter() {
+    const [counter, setCounter] = useState(0)
     return <div className="d-flex flex-column align-items-center">
-        <p>0</p>
+        <p>{counter}</p>
         <div>
             <button className="btn m-1" onClick={add}>+</button>
             <button className="btn m-1" onClick={subtract}>-</button>
@@ -10,12 +11,10 @@ export function Counter() {
     </div>
 
     function add() {
-        //implement state
-        throw new Error("state change not implemented");
+        setCounter(counter + 1)
     }
 
     function subtract() {
-        //implement state
-        throw new Error("state change not implemented");
+        setCounter(counter - 1)
     }
 }
