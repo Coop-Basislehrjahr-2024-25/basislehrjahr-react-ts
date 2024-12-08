@@ -74,7 +74,7 @@ function SuperCoolButton() {
 
 ---
 
-# Komponenten dekleration
+# Komponenten deklaration
 
 ```tsx
 function SuperCoolButton() {
@@ -102,7 +102,7 @@ class SuperCoolButton extends React.Component {
 * Single Page Application
 * `src/index.html` für `localhost/`
     * Für weitere Seiten braucht es ein Router
-    * Bspw. Laden von `<SuperCoolButton>`
+    * Bsp. Laden von `<SuperCoolButton>`
 
 ---
 

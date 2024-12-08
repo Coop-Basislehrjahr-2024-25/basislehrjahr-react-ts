@@ -1,6 +1,6 @@
 # Aufgabe
 
-Schau dir die Projektstruktur an. Versuche Änderungen an den Datei vorzunehmen. Wie beinflussen deine Änderungen die
+Schau dir die Projektstruktur an. Versuche Änderungen an den Dateien vorzunehmen. Wie beeinflussen deine Änderungen die
 Website?
 
 Versuche noch zusätzliches:
@@ -46,8 +46,8 @@ Hier könnte ein andere Text stehen, der im HTML definiert ist.
 <details>
   <summary>Wie verändere ich den React Teil?</summary>
 
-Änderungen am React Teil können an zwei Datei verbracht werden.
-Der Hauptrenderer [index.tsx](./src/index.tsx) Rendert den React Teil der Applikation.
+Änderungen am React Teil können an zwei Dateien verbracht werden.
+Der Hauptrenderer [index.tsx](./src/index.tsx) rendert den React Teil der Applikation.
 
   ```tsx
 root.render(<>
@@ -76,7 +76,7 @@ export default function Greeter() {
 `<>` ist eine besondere Syntax welche ermöglicht, mehrere JSX-Elemente nebeneinander zu rendern, ohne zusätzliche
 HTML-Elemente wie `<div>` oder `<span>` zu erzeugen.
 
-Das ist wichtig, da JSX Funktionen nur ein Element zurück geben können, daher müssen verschachtelte Komponenten entweder
+Das ist wichtig, da JSX Funktionen nur ein Element zurückgeben können, daher müssen verschachtelte Komponenten entweder
 mit einem `<div>`, `<span>` oder `<>` gewrapped werden.
 </details>
 
@@ -109,7 +109,7 @@ Eine mögliche Änderung könnte so aussehen, wo der ```<h1></h1>``` angepasst w
 <details>
   <summary>Möchtest du bereits die Lösung anschauen? (Aufgabe 1.2-1.3 und 2)</summary>
 
-Eine mögliche Änderung an [index.tsx](src/index.tsx) könnte so aussehen wo der renderer angepasst wird. So wurde die
+Eine mögliche Änderung an [index.tsx](src/index.tsx) könnte so aussehen, wo der renderer angepasst wird. So wurde die
 Nachricht angepasst und eine neue Komponente angehängt.
 
 ```tsx

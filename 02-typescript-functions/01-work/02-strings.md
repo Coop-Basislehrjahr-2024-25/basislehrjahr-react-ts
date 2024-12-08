@@ -17,7 +17,7 @@ const mindset = "java is the greatest of all time!"
 
 
 Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe) wie man die String Methoden in **typescript** verwendet und alles
-weitere was dich interessiert.
+Weitere was dich interessiert.
 
 ## Aufgaben Hilfe
 

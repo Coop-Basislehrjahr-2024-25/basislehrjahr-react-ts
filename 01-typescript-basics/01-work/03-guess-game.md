@@ -53,7 +53,7 @@ process.exit();  // braucht es nur wegen dem dev Server
 ## Challenge
 
 Nun drehst du den Spiess um. Du denkst dir vor dem Start eine Zahl aus in einem von dir gewählten Zahlenbereich aus. Der Zahlebereich wird am Start der Applikation von der Applikation gefragt. Diese versucht jetzt deine Zahl zu erraten.
-Mit (y/n) Eingaben kannst du entscheiden ob das Programm richtig geraten hat.
+Mit (y/n) Eingaben kannst du entscheiden, ob das Programm richtig geraten hat.
 
 Bonus Aufgaben: 
 * Gib aus wie viele Versuche die Applikation gebraucht hat.

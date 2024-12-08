@@ -8,7 +8,7 @@ Die `magicStaticNumber` soll unverändert angezeigt werden.
 
 ```
         -------------------------------------------------------------------------       
-        |                       Ergebniss der Berechnung                        |
+        |                       Ergebnis der Berechnung                         |
         |                               41                                      |
         |                               ^w^                                     |
         ------------------------------------------------------------------------- 
@@ -18,7 +18,7 @@ Die `magicStaticNumber` soll quadriert, mit 5 multipliziert, die Wurzel gezogen 
 
 ```
         -------------------------------------------------------------------------       
-        |                       Ergebniss der Berechnung                        |
+        |                       Ergebnis der Berechnung                         |
         |                               91                                      |
         |                               ^w^                                     |
         ------------------------------------------------------------------------- 
@@ -28,7 +28,7 @@ Die `magicStaticNumber` `NaN` zurück geben.
 
 ```
         -------------------------------------------------------------------------       
-        |                       Ergebniss der Berechnung                        |
+        |                       Ergebnis der Berechnung                         |
         |                               Nan                                     |
         |                               ^w^                                     |
         ------------------------------------------------------------------------- 
@@ -38,7 +38,7 @@ Die `magicStaticNumber` `Infinity` zurück geben.
 
 ```
         -------------------------------------------------------------------------       
-        |                       Ergebniss der Berechnung                        |
+        |                       Ergebnis der Berechnung                         |
         |                               Infinity                                        |
         |                               ^w^                                     |
         -------------------------------------------------------------------------      
@@ -56,7 +56,7 @@ console.log(screenFormatter((number) => number + 5))
 
 ``` typescript
         -------------------------------------------------------------------------       
-        |                       Ergebniss der Berechnung                        |
+        |                       Ergebnis der Berechnung                         |
         |                               46                                      |
         |                               ^w^                                     |
         -------------------------------------------------------------------------    

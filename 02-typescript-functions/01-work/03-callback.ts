@@ -2,9 +2,10 @@ const screenFormatter = (transformerFunction: (number: number) => number): strin
 	const magicStaticNumber = 41;
 	return `
 	-------------------------------------------------------------------------	
-	|			Ergebniss der Berechnung			|
+	|			Ergebnis der Berechnung			    	|
 	|				${transformerFunction(magicStaticNumber)}					|
 	|			        ^w^					|
 	-------------------------------------------------------------------------	
 	`;
 };
+

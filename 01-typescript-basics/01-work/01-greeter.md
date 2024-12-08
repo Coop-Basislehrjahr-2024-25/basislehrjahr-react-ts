@@ -1,16 +1,16 @@
 # Aufgabe 
 
-Erstelle eine Applikation welche im Terminal ausgeführt wird. Die Applikation soll der Benutzer verschiedene Frage in einem Frage-Antwort Rhytmus.
+Erstelle eine Applikation, welche im Terminal ausgeführt wird. Die Applikation soll der Benutzer verschiedene Frage in einem Frage-Antwort-Rhythmus.
 Stelle 3 Fragen, stelle diese in einem abschlissenden Text dar, bevor die Applikation beendet wird.
 
-Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe) wie man Benutzereingaben in **node** verarbeitet, wie man etwas in die Console schreibt und alles weitere was dich interessiert..
+Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe) wie man Benutzereingaben in **node** verarbeitet, wie man etwas in die Console schreibt und alles Weitere was dich interessiert.
 
 ## Aufgaben Hilfe
 
 <details>
   <summary>Wie stelle ich Fragen in node?</summary>
 
-In **node** können Module verwendet werden, um das auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
+In **node** können Module verwendet werden, um das Auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
 
   ```typescript
 import * as rl from 'node:readline/promises'; // Import für das Modul, welches die Konsole ausliest
@@ -34,7 +34,7 @@ console.log(name)
 <details>
   <summary>Möchtest du bereits die Lösung anschauen?</summary>
 
-In **node** können Module verwendet werden, um das auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
+In **node** können Module verwendet werden, um das Auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
 
   ```typescript
 import * as process from 'node:process';
@@ -71,7 +71,7 @@ Beispiel: "Bist du bereits Volljährig? y/n"
 <details>
   <summary>Möchtest du bereits die Lösung anschauen?</summary>
 
-In **node** können Module verwendet werden, um das auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
+In **node** können Module verwendet werden, um das Auslesen der Konsole zu ermöglichen. Hier wäre ein Beispiel.
 
   ```typescript
 import * as process from 'node:process';

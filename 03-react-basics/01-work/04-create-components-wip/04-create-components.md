@@ -1,7 +1,7 @@
 # Aufgabe
 
 Die Applikation ist aktuell nur in einzelnen HTML Elementen aufgebaut. Versuche logische Komponenten zu erstellen und
-dabei möglichst das gleiche Ergebnisse dabei zu behalten.
+dabei möglichst das gleiche Ergebnis dabei zu behalten.
 
 Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe)
 ## Aufgaben Hilfe

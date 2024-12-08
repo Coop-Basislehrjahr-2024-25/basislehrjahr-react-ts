@@ -119,7 +119,7 @@ console.log(names.map(name => name.toUpperCase()))
 <details>
   <summary>Möchtest du bereits die Lösung anschauen? (Aufgabe 8)</summary>
 
-`reduce` ist ein Funktion, welches durch alle Elementen durch iteriert und dieses zu einem Wert zusammenfasst.
+`reduce` ist eine Funktion, welches durch alle Elementen durch iteriert und dieses zu einem Wert zusammenfasst.
 
 `reduce(function, initialWert)`
 

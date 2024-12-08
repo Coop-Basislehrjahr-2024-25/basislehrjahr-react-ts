@@ -42,7 +42,7 @@ export default App;
 
 ## Einführung in React Props
 
-React-Props ermöglichen das Übergeben von Daten von einer Elternkomponente an eine Kindkomponente. Diese Daten können in der Kindkomponente verwendet werden, um dynamische Inhalte zu generieren.
+React-Props ermöglichen das Übergeben von Daten von einer Elternkomponente an eine Kind Komponente. Diese Daten können in der Kind Komponente verwendet werden, um dynamische Inhalte zu generieren.
 
 ## Übergeben von React Props
 
@@ -54,7 +54,7 @@ Um Props zu übergeben, werden sie in der Aufrufnotation der Komponente wie HTML
 
 ## Verwendung von React Props
 
-In der Kindkomponente können Props wie Argumente einer Funktion verwendet werden:
+In der Kind Komponente können Props wie Argumente einer Funktion verwendet werden:
 
 ```jsx
 type Props = {
@@ -67,7 +67,7 @@ function ChildComponent(props: Readonly<Props>) {
 };
 ```
 
-> 💡 Props sollten in React nicht verändert werden. Readonly ist ein TypeScript-Feature, das verhindert, dass Props in der Kindkomponente verändert werden, z. B. props.name = "John".
+> 💡 Props sollten in React nicht verändert werden. Readonly ist ein TypeScript-Feature, das verhindert, dass Props in der Kind Komponente verändert werden, z. B. props.name = "John".
 
 ## Callback-Funktionen in React
 

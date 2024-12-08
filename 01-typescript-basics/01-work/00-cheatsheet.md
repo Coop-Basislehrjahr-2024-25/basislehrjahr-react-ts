@@ -105,7 +105,7 @@ function helloWorld() {
 	console.log("Hallo Welt!")
 }
 ```
-> 💡 Hinweis: Kommentare können verwendet werden um zusätzliche Informationen zur einer Code stelle zu liefern oder um diese Temporär nicht auszuführen. 
+> 💡 Hinweis: Kommentare können verwendet werden, um zusätzliche Informationen zu einer Codestelle zu liefern oder um diese Temporär nicht auszuführen. 
 
 ## Einführung in TypeScript-Typen
 

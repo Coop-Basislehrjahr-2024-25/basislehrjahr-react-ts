@@ -7,7 +7,7 @@ Führe Grundlegende mathematische Berechnungen in Typescript durch.
 - [ ] Berechne den Umfang eines Kreises mit dem Radius $\sqrt{2}$
 - [ ] Berechne die Mantelfläche eines Quaders l = 15, b = 7 = h 7 
 
-Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe) wie man das Math Module in **typescript** verwendet und alles weitere was dich interessiert.
+Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe) wie man das Math Module in **typescript** verwendet und alles Weitere was dich interessiert.
 
 ## Aufgaben Hilfe
 <details>

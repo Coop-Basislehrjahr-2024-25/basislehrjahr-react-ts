@@ -1,8 +1,7 @@
 # Aufgabe
 
-Bearbeite die Applikation, so dass die Komponenten [Counter.tsx](src/Counter.tsx) und [Digit.tsx](src/Digit.tsx) so dass
-diese Kommunizieren. Der Counter Wert soll von [Counter.tsx](src/Counter.tsx) an [Digit.tsx](src/Digit.tsx) übergeben
-werden, so dass dieser dort angezeigt werden kann.
+Bearbeite die Applikation, sodass die Komponenten [Counter.tsx](src/Counter.tsx) und [Digit.tsx](src/Digit.tsx) Kommunizieren. Der Counter Wert soll von [Counter.tsx](src/Counter.tsx) an [Digit.tsx](src/Digit.tsx) übergeben
+werden, sodass dieser dort angezeigt werden kann.
 
 Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe)
 
