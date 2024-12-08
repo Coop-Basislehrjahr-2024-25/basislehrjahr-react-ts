@@ -5,7 +5,8 @@
   "scripts": {
     "slides": "marp -s .",
     "react:1": "vite serve 03-react-basics/01-work/01-first-react/",
-    "react:2": "vite serve 03-react-basics/01-work/02-components/"
+    "react:2": "vite serve 03-react-basics/01-work/02-state/",
+    "react:3": "vite serve 03-react-basics/01-work/03-create-components/"
   },
   "author": "Gabriel Nadolny",
   "license": "ISC",

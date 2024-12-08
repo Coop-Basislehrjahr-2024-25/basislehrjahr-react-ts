@@ -12,6 +12,10 @@ body {
     color: var(--text);
 }
 
+.btn {
+    background-color: var(--primary);
+}
+
 button.secondary {
     background-color: var(--secondary);
 }

@@ -105,6 +105,12 @@ class SuperCoolButton extends React.Component {
     * Bspw. Laden von `<SuperCoolButton>`
 
 ---
+# State
+
+
+````
+
+---
 
 # Aufgaben
 
