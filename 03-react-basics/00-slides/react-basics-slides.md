@@ -126,6 +126,22 @@ const [value, setValue] = useState(initValue)
 
 ---
 
+# Komponenten Kommunikation
+
+```tsx
+export default function NameRenderer(props: { name: string }) {
+    // code
+}
+```
+
+```tsx
+<>
+    <NameRenderer name={"Gabriel"}></NameRenderer>
+</>
+```
+
+---
+
 # Aufgaben
 
 Allgemeine Syntax Informationen in `03-react-basics/01-work/00-cheatsheet.md`
