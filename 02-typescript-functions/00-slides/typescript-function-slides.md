@@ -269,4 +269,12 @@ fetchRandomJoke()
 	});
 ```
 
+--- 
+
+# Aufgaben
+
+
+Allgemeine Syntax Informationen in `02-typescript-functions/01-work/00-cheatsheet.md`
+
+Aufgaben in `02-typescript-functions/01-work`
 

@@ -104,4 +104,12 @@ class SuperCoolButton extends React.Component {
     * Für weitere Seiten braucht es ein Router
     * Bspw. Laden von `<SuperCoolButton>`
 
-ß
+---
+
+# Aufgaben
+
+Allgemeine Syntax Informationen in `03-react-basics/01-work/00-cheatsheet.md`
+
+Aufgaben in `03-react-basics/01-work`
+
+Starten eines React Projekts `npm run react:[Nummer der Aufgabe]`
