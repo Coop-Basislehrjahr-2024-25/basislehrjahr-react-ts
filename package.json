@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "main": "readme.md",
   "scripts": {
-    "start": "marp -s ."
+    "slides": "marp -s .",
+    "react:1": "vite serve 03-react-basics/01-work/01-first-react/"
   },
   "author": "Gabriel Nadolny",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.0.3"
+    "@marp-team/marp-cli": "^4.0.3",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

@@ -3,7 +3,7 @@
 Ein React-Projekt ist in Komponenten unterteilt, die wiederverwendbare Bausteine der Benutzeroberfläche darstellen. Hier ist eine grundlegende Projektstruktur:
 
 - **src/**
-    - **App.tsx**: Die Hauptkomponente, die andere Komponenten rendert.
+    - **index.tsx**: Die Hauptkomponente, die andere Komponenten rendert.
     - **index.html**: Die HTML-Seite, die unsere App enthält.
     - *.tsx andere Komponenten und strukturierte Unterordner.
 
@@ -25,7 +25,7 @@ export default halloWelt;
 
 ## Einbinden von Komponenten
 
-In App.tsx können wir unsere Komponenten einbinden und verwenden.
+In index.tsx können wir unsere Komponenten einbinden und verwenden.
 
 ```tsx
 import React from 'react';
