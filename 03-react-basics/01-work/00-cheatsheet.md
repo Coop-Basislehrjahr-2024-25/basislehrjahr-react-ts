@@ -55,3 +55,4 @@ Du kannst jetzt die Komponentenhierarchie, Props, State und vieles mehr √ºberpr√
 
 - [Vite Dokumentation](https://vitejs.dev/)
 - [React DevTools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html)
+- [w3schools React](https://www.w3schools.com/react/default.asp)
