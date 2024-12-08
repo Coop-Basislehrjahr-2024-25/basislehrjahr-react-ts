@@ -3,6 +3,8 @@
 Erweitere die gegebene Applikation in dem du `useState`verwendest.
 Die gegebene Buttons sollen den Counter entsprechend anpassen.
 
+Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe)
+
 ## Aufgaben Hilfe
 
 <details>

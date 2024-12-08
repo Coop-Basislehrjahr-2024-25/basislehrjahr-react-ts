@@ -12,6 +12,8 @@ Versuche noch zusätzliches:
 - [ ] Füge eine neue Komponente hinzu und zeige diese an
 - [ ] Füge Styling zur Website hinzu
 
+Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe)
+
 ## Aufgaben Hilfe
 
 <details>
@@ -49,31 +51,34 @@ Der Hauptrenderer [index.tsx](./src/index.tsx) Rendert den React Teil der Applik
 
   ```tsx
 root.render(<>
-  // Hier könntest du ändern, was gerendert wird.
+    // Hier könntest du ändern, was gerendert wird.
 </>);
   ```
 
-Ausserdem könntest du auch direkt an der Komponente [Greeter.tsx](./src/Greeter.tsx) ändern, solang diese gerendert wird.
+Ausserdem könntest du auch direkt an der Komponente [Greeter.tsx](./src/Greeter.tsx) ändern, solang diese gerendert
+wird.
 Das könnte beispielsweise so aussehen:
 
 ```tsx
 export default function Greeter() {
-  return <>
-    <h1>Hier ist ein Text</h1>
-    <button className="super-coole-class">Super cooler Knopf</button>
-  </>
+    return <>
+        <h1>Hier ist ein Text</h1>
+        <button className="super-coole-class">Super cooler Knopf</button>
+    </>
 }
 ```
+
 </details>
 
 <details>
   <summary>Was sind diese <> Elemente?</summary>
 
-`<>` ist eine besondere Syntax welche ermöglicht, mehrere JSX-Elemente nebeneinander zu rendern, ohne zusätzliche HTML-Elemente wie `<div>` oder `<span>` zu erzeugen.
+`<>` ist eine besondere Syntax welche ermöglicht, mehrere JSX-Elemente nebeneinander zu rendern, ohne zusätzliche
+HTML-Elemente wie `<div>` oder `<span>` zu erzeugen.
 
-Das ist wichtig, da JSX Funktionen nur ein Element zurück geben können, daher müssen verschachtelte Komponenten entweder mit einem `<div>`, `<span>` oder `<>` gewrapped werden.  
+Das ist wichtig, da JSX Funktionen nur ein Element zurück geben können, daher müssen verschachtelte Komponenten entweder
+mit einem `<div>`, `<span>` oder `<>` gewrapped werden.
 </details>
-
 
 ## Musterlösung
 
@@ -104,7 +109,9 @@ Eine mögliche Änderung könnte so aussehen, wo der ```<h1></h1>``` angepasst w
 <details>
   <summary>Möchtest du bereits die Lösung anschauen? (Aufgabe 1.2-1.3 und 2)</summary>
 
-Eine mögliche Änderung an [index.tsx](src/index.tsx) könnte so aussehen wo der renderer angepasst wird. So wurde die Nachricht angepasst und eine neue Komponente angehängt.
+Eine mögliche Änderung an [index.tsx](src/index.tsx) könnte so aussehen wo der renderer angepasst wird. So wurde die
+Nachricht angepasst und eine neue Komponente angehängt.
+
 ```tsx
 import React from 'react';
 import {createRoot} from 'react-dom/client';
@@ -123,9 +130,10 @@ root.render(<>
 import React from "react";
 
 export default function SuperCoolerButton() {
-     return <button className="super-coole-class">Super cooler Knopf</button>
+    return <button className="super-coole-class">Super cooler Knopf</button>
 }
 ```
+
 </details>
 
 <details>
@@ -154,16 +162,17 @@ Eine mögliche Änderung an der [index.html](index.html) könnte so aussehen. So
 
 ```css
 body {
-  background-color: #01081e;
+    background-color: #01081e;
 }
 
-h1,p {
-  color: #e1e7fe;
+h1, p {
+    color: #e1e7fe;
 }
 
 button {
-  background-color: #e1e7fe;
+    background-color: #e1e7fe;
 }
 ```
+
 </details>
 

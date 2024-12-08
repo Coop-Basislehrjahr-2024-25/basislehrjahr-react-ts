@@ -4,6 +4,8 @@ Bearbeite die Applikation, so dass die Komponenten [Counter.tsx](src/Counter.tsx
 diese Kommunizieren. Der Counter Wert soll von [Counter.tsx](src/Counter.tsx) an [Digit.tsx](src/Digit.tsx) übergeben
 werden, so dass dieser dort angezeigt werden kann.
 
+Informiere dich im Internet oder schau in die [Aufgaben Hilfe](#aufgaben-hilfe)
+
 ## Aufgaben Hilfe
 
 <details>
@@ -18,7 +20,6 @@ export default function NameRenderer(props: { name: string }) {
 
 <><NameRenderer name={"Gabriel"}></NameRenderer></>
 ```
-
 
 </details>
 

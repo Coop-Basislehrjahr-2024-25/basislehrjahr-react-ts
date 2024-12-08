@@ -1,19 +1,6 @@
 # Aufgabe
 
-Verwende folgende Basis Methode, um folgende Ergebnisse zu erreichen. Der Parameterwert der Funktion muss verwendet werde.
-
-```typescript
-const screenFormatter = (transformerFunction: (number: number) => number): string => {
-	const magicStaticNumber = 41;
-	return `
-	-------------------------------------------------------------------------	
-	|			Ergebniss der Berechnung			|
-	|				${transformerFunction(magicStaticNumber)}					|
-	|			        ^w^					|
-	-------------------------------------------------------------------------	
-	`;
-};
-```
+Vorgegeben Basis Code in [03-callback.ts](03-callback.ts), um folgende Ergebnisse zu erreichen. Der Parameterwert der Funktion muss verwendet werde.
 
 ## Erwartet Ergebnisse
 

@@ -36,8 +36,8 @@ Eine ziemliche gute übersicht der verschiedenen Funktionen ist auf [w3schools](
   <summary>Möchtest du bereits die Lösung anschauen? (Aufgabe 1)</summary>
 
   ```typescript
-numbers.push(420);
-console.log(numbers);
+sortNumbers.push(420);
+console.log(sortNumbers);
   ```
 
 </details>
@@ -46,8 +46,8 @@ console.log(numbers);
   <summary>Möchtest du bereits die Lösung anschauen? (Aufgabe 2)</summary>
 
   ```typescript
-numbers[0] = 420;
-console.log(numbers); // [420, 186, 275, 944, 901, 255, 781, 281, 745, 1, 410, 689];
+sortNumbers[0] = 420;
+console.log(sortNumbers); // [420, 186, 275, 944, 901, 255, 781, 281, 745, 1, 410, 689];
   ```
 
 </details>
@@ -57,7 +57,7 @@ console.log(numbers); // [420, 186, 275, 944, 901, 255, 781, 281, 745, 1, 410, 6
 Hier wird ein neues Array erstellt mit den Werten aus `numbers` und `names`. Dabei werden die Datentypen gemischt.
 
   ```typescript
-console.log([...names, ...numbers])
+console.log([...names, ...sortNumbers])
 
 /*	[
 	'Emilia', 'Mia',    'Emma',
@@ -125,12 +125,11 @@ console.log(names.map(name => name.toUpperCase()))
 
 `function` ist die Mapper funktion welche den vorherigen sowie den aktuellen Wert der iteration erhält. Wenn es der erste durchgang ist, der vorherige Wert der Initialwert.
 
-
   ```typescript
 console.log(names.reduce((previousName, currentName) => `${previousName} ${currentName}`, ""))
 // Emilia Mia Emma Mila Lina Sophia Sofia Amelie Leonie Malia
 
-console.log(numbers.reduce((previousNumber, currentNumber) => previousNumber + currentNumber, 0))
+console.log(sortNumbers.reduce((previousNumber, currentNumber) => previousNumber + currentNumber, 0))
 // 6332
   ```
 
