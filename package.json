@@ -2,6 +2,7 @@
   "name": "basislehrjahr-react-ts",
   "version": "1.0.0",
   "main": "readme.md",
+  "type": "module",
   "scripts": {
     "slides": "marp -s .",
     "react:1": "vite serve 03-react-basics/01-work/01-first-react/",
