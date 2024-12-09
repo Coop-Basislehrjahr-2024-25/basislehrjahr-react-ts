@@ -52,7 +52,9 @@ replace()
 replaceAll()
 split()
   ```
+
 ---
+
 # String Funktionen destruktiv
 
  ```
@@ -63,6 +65,7 @@ unshift()
 delete()
 splice()
   ```
+
 * verändern den original String
 
 ---
@@ -99,10 +102,10 @@ unshift()
 delete()
 splice()
   ```
+
 * verändern das original Array
 
 ---
-
 
 # Callback Funktionen
 
@@ -183,6 +186,7 @@ fetchRandomJoke((joke) => {
 ---
 
 # Promises
+
  ```typescript
 const serverResponse = (): Promise<string> => {
 	if (server.ok) {
@@ -196,6 +200,7 @@ const serverResponse = (): Promise<string> => {
 ---
 
 # Promises
+
  ```typescript
 const serverResponse = (): Promise<string> => {
 	if (server.ok) {
@@ -213,9 +218,11 @@ serverResponse().then(response => {
 	// Logik um den Fehler zu behandeln
 })
   ```
+
 ---
 
-# Promise Heaven 
+# Promise Heaven
+
 ```typescript
 fetchRandomJoke()
 	.then((joke) => {
@@ -233,6 +240,7 @@ fetchRandomJoke()
 ```
 
 --- 
+
 # Vergleich
 
 ```typescript
@@ -250,7 +258,9 @@ fetchRandomJoke((joke) => {
 	// Logik um den Fehler zu behandeln
 });
 ```
+
 ---
+
 # Vergleich
 
 ```typescript
@@ -269,10 +279,39 @@ fetchRandomJoke()
 	});
 ```
 
---- 
+---
+
+# Klassen
+
+```typescript
+export class GenericClass {
+	paramter1: string;
+	paramter2: string;
+	paramter3: string;
+
+	doStuff() {
+	}
+}
+```
+
+---
+
+# Klassen
+
+```typescript
+export abstract class AbstractGenericClass {
+	paramter1: string;
+	paramter2: string;
+	paramter3: string;
+
+	doStuff() {
+	}
+}
+```
+
+---
 
 # Aufgaben
-
 
 Allgemeine Syntax Informationen in `02-typescript-functions/01-work/00-cheatsheet.md`
 
