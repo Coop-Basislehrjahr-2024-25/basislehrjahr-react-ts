@@ -20,6 +20,8 @@ Womöglich ist ein Login nötig für den Coop Nexus:
 Löse jeweils die Aufgaben in den korrespondierenden Typescript (`.ts`) Dateien.
 Die Dateien können direkt in IntelliJ ausgeführt werden.
 
+Wenn VS Code verwendet wird kann über den Build Task das Typescript File direkt ausgeführt werden. `CTRL + SHIFT + B`. 
+
 ## Bearbeitung der react Aufgaben
 
 Löse jeweils die Aufgaben in den korrespondierenden Ordnern.
