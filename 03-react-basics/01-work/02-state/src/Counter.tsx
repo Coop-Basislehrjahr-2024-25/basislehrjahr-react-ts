@@ -1,20 +1,19 @@
-import React, {useState} from "react";
+import React from "react";
 
 export function Counter() {
-    const [counter, setCounter] = useState(0)
-    return <div className="d-flex flex-column align-items-center">
-        <p>{counter}</p>
-        <div>
-            <button className="btn m-1" onClick={add}>+</button>
-            <button className="btn m-1" onClick={subtract}>-</button>
-        </div>
-    </div>
+	return <div className="d-flex flex-column align-items-center">
+		<p>0</p>
+		<div>
+			<button className="btn m-1" onClick={add}>+</button>
+			<button className="btn m-1" onClick={subtract}>-</button>
+		</div>
+	</div>
 
-    function add() {
-        setCounter(counter + 1)
-    }
+	function add() {
+		// implement counter increase
+	}
 
-    function subtract() {
-        setCounter(counter - 1)
-    }
+	function subtract() {
+		// implement counter decrease
+	}
 }
