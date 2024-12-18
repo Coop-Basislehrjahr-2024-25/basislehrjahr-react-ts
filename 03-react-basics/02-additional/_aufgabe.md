@@ -33,7 +33,7 @@ export default defineConfig({
 
 ## Auftrag
 
-Setze ein neues Frontend für die Quick-Notes Applikation um. Es soll Funktional gleich sein wie das bisherige Frontend aus dem Java Projekt.
+Setze ein neues Frontend für die Quick-Notes Applikation um. Es soll Funktional gleich sein wie das bisherige Frontend aus dem Java Projekt. Sobald alle funktionen abgedeckt sind, kannst du dich ans Design machen. Gestalte die Webseite nach deinen Vorstellungen.
 
 ## Hinweise
 
