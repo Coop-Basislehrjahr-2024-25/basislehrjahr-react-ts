@@ -20,8 +20,7 @@ button.secondary {
     background-color: var(--secondary);
 }
 
-
-.img-container {
+.img {
     height: 100px;
     max-width: 100px;
     border-radius: 15px;
@@ -32,6 +31,10 @@ a, a:hover, a:visited {
     text-decoration: none;
 }
 
-a:before{
-    content: "/ᐠ ˵> ⩊ <˵マ ";
+a:before, a:after {
+    content: " /ᐠ ˵> ⩊ <˵マ ";
+}
+
+.cat-image-container {
+    width: 120px;
 }
