@@ -8,7 +8,8 @@
     "react:1": "vite serve 03-react-basics/01-work/01-first-react/",
     "react:2": "vite serve 03-react-basics/01-work/02-state/",
     "react:3": "vite serve 03-react-basics/01-work/03-component-communication/",
-    "react:4": "vite serve 03-react-basics/01-work/04-create-components/"
+    "react:4": "vite serve 03-react-basics/01-work/04-create-components/",
+    "react:5": "vite serve 03-react-basics/01-work/05-forms-wip"
   },
   "author": "Gabriel Nadolny",
   "license": "ISC",
