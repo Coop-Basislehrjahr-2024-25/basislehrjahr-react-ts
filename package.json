@@ -9,7 +9,8 @@
     "react:2": "vite serve 03-react-basics/01-work/02-state/",
     "react:3": "vite serve 03-react-basics/01-work/03-component-communication/",
     "react:4": "vite serve 03-react-basics/01-work/04-create-components/",
-    "react:5": "vite serve 03-react-basics/01-work/05-forms-wip"
+    "react:5": "vite serve 03-react-basics/01-work/05-forms-wip",
+    "react:6": "vite serve 03-react-basics/01-work/06-axios"
   },
   "author": "Gabriel Nadolny",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "vite": "^6.0.3"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "figlet": "^1.8.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
