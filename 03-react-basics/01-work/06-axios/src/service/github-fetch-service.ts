@@ -1,11 +1,11 @@
 import {AxiosRequestConfig} from 'axios';
 import {GithubRepository, GithubUser} from '../types/github-types';
 
-export function fetchUser(username: string): GithubUser {
+export function fetchUser(username: string): Promise<GithubUser> {
 	throw new Error("Method not implemented.");
 }
 
-export function fetchRepos(username: string): GithubRepository {
+export function fetchRepos(username: string): Promise<GithubRepository[]> {
 	throw new Error("Method not implemented.");
 }
 
