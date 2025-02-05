@@ -1,40 +1,35 @@
 # React Router
 
-## Lernziele
-- [ ] Verstehen, was Routing ist und warum es wichtig ist
-- [ ] Installation und Integration von `react-router-dom` in einem React-Projekt
-- [ ] Erstellung und Navigation zwischen verschiedenen Seiten (Routen)
-- [ ] Dynamische Routen und Verwendung von URL-Parametern
-
 ## Was ist Routing?
+
 Routing im Kontext der Webentwicklung ist der Prozess der Auswahl einer Aktion basierend auf der URL, um spezifische Teile der Anwendung zu rendern. In Single-Page-Anwendungen (SPAs) wie denen, die mit React erstellt werden, wird clientseitiges Routing verwendet. In diesem Fall wird die Seite nicht bei jeder Anfrage neu geladen, sondern nur der für die Route spezifizierte Inhalt dynamisch gerendert.
 
 > 💡 Routing ist ein wichtiger Bestandteil jeder Webanwendung, um die Navigation zwischen verschiedenen Inhalten zu ermöglichen, ohne die gesamte Seite neu laden zu müssen.
 
 ## Installation von `react-router-dom`
-`react-router-dom` ist die Version von React Router, die speziell für Webanwendungen entwickelt wurde. Um es zu installieren, verwenden wir den `npm`- oder `yarn`-Befehl in der Konsole:
 
 ```shell
 npm install react-router-dom
 ```
 
 ## Anwendung von React Router
-Um React Router in unserer Anwendung zu verwenden, umhüllen wir unsere Hauptkomponente (normalerweise `App`) mit der `BrowserRouter`-Komponente. In diesem Fall sieht unser `index.js` (oder `index.tsx` für TypeScript) so aus:
+
+Um React Router in unserer Anwendung zu verwenden, umhüllen wir unsere Hauptkomponente (normalerweise `App`) mit der `BrowserRouter`-Komponente. In diesem Fall sieht das `index.tsx` so aus:
 
 ```typescript jsx
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-    <React.StrictMode>
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
         <BrowserRouter>
             <App/>
         </BrowserRouter>
-    </React.StrictMode>,
-    document.getElementById('root')
+  </StrictMode>,
 );
 ```
 
 ## Erstellung von Routen
+
 Im nächsten Schritt definieren wir Routen in unserer Anwendung. Routen verknüpfen URL-Pfade mit spezifischen React-Komponenten. Hier ist ein einfaches Beispiel, wie man Routen mit den `Routes`- und `Route`-Komponenten erstellt:
 
 ```typescript jsx
@@ -43,19 +38,18 @@ import { Routes, Route } from "react-router-dom";
 function App() {
     return (
         <Routes>
-            <Route path="/" element={<MainPage/>}/>
-            <Route path="/index" element={<Index/>}/>
-            <Route path="/courses" element={<Courses/>}/>
+            <Route path="/" element={<Index />} />
+            <Route path="/index" element={<Notes />} />
+            <Route path="/courses" element={<Users />} />
         </Routes>
     );
 }
 ```
-```
 
-```markdown
 Jede `Route` hat einen `path` und ein `element`. Der `path` gibt an, welcher URL-Pfad zu dieser Route führt, und das `element` ist das Komponente, die gerendert wird, wenn die Route erreicht wird.
 
 ## Navigation zwischen Seiten
+
 Wir können das `Link`-Komponente verwenden, um auf andere Routen zu verweisen:
 
 ```typescript jsx
@@ -72,6 +66,7 @@ function Hauptseite() {
 ```
 
 ## Dynamische Routen und URL-Parameter
+
 React Router ermöglicht es uns, dynamische Routen zu erstellen, die auf URL-Parameter verweisen. Ein Beispiel wäre eine Detailseite für ein bestimmtes Ereignis. Die Definition der Route:
 
 ```typescript jsx
@@ -110,23 +105,24 @@ Wenn wir die Navigation an einer bestimmten Stelle im JavaScript-Code auslösen 
 
 import { useNavigate } from "react-router-dom";
 
-function EinigeKomponente() {
+function EigeneKomponente() {
     
     const navigate = useNavigate();
     
-    function zuEinigerRouteGehen() {
+    function zuEinerRouteGehen() {
         navigate("/einige-route");
     }
     
     return(
         <div>
-            <button onClick={zuEinigerRouteGehen}>Gehe zu Seite XY</button>
+            <button onClick={zuEinerRouteGehen}>Gehe zu Seite XY</button>
         </div>
     );
 }
-``` 
+```
 
 ## Ressourcen
+
 - [React Router Dokumentation](https://reactrouter.com/)
 - [Einführung in React Router auf MDN](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_router)
 - [Artikel: Ein umfassender Leitfaden zu React Router](https://blog.logrocket.com/a-comprehensive-guide-to-react-router/)
